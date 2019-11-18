@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Veebilehe projekt</title>
+</head>
+<body>
+
+<h1>Esimese taseme pealkiri</h1>
+<p>Tekstilõik</p>
+<a href="vaheleht1.html"></a>
+
+</body>
+</html>
