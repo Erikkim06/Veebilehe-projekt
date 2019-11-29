@@ -3,11 +3,74 @@
 	<head>
 		<title>Veebilehe projekt</title>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-
-		<h1>Esimese taseme pealkiri</h1>
-
-		<p>Siit saab <a href="vaheleht1.html">vahelehele</a>.</p>
+		<div class="navigatsioon">
+				<h1> UEFA </h1>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="element">
+					<div class="slideshow-container">
+					
+						<div class="slide fade">
+							<div class="numbrid">1 / 3</div>
+							<img src="belgia.png" alt="Belgia" style="width:100%">
+							<div class="tekst">Belgia</div>
+						</div>
+						
+						<div class="slide fade">
+							<div class="numbrid">2 / 3</div>
+							<img src="inglismaa.png" alt="Inglismaa" style="width:100%">
+							<div class="tekst">Inglismaa</div>
+						</div>
+						
+						<div class="slide fade">
+							<div class="numbrid">3 / 3</div>
+							<img src="itaalia.png" alt="Itaalia" style="width:100%">
+							<div class="tekst">Itaalia</div>
+						</div>
+						
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						
+					</div>
+					
+					<br>
+					
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				
+					<script src="slides.js"></script>
+				</div>
+				<div class="element">
+					<p class="informatsioon">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Sit amet consectetur adipiscing elit. Lectus sit amet est placerat in egestas erat. Massa tempor nec feugiat nisl pretium fusce id. A erat nam at lectus urna duis. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Eget duis at tellus at urna condimentum. Ridiculus mus mauris vitae ultricies leo. Amet venenatis urna cursus eget. Aliquet eget sit amet tellus. Pretium nibh ipsum consequat nisl vel pretium lectus. Pellentesque nec nam aliquam sem et tortor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Quisque id diam vel quam elementum pulvinar etiam non.
+					Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Enim ut sem viverra aliquet. Sed pulvinar proin gravida hendrerit. Nibh venenatis cras sed felis eget velit aliquet sagittis id. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Orci dapibus ultrices in iaculis nunc sed augue. Arcu non sodales neque sodales ut etiam. Viverra tellus in hac habitasse platea. Purus in mollis nunc sed. Orci a scelerisque purus semper eget duis. Viverra aliquet eget sit amet tellus cras adipiscing enim. Neque volutpat ac tincidunt vitae semper quis lectus. Magna etiam tempor orci eu lobortis elementum. Amet porttitor eget dolor morbi non. Neque egestas congue quisque egestas diam in arcu cursus.
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="element">
+					<span>
+						<button type="button">Facebook</button>
+						<button type="button">Twitter</button>
+						<button type="button">Instagram</button>
+					</span>
+				</div>
+				<div class="element">
+					<p>Järgmise mängu couuntdown</p>
+					<p id="demo"></p>
+					<script src="countdown.js"></script>
+				</div>
+				<div class="element">
+					<p>TODO GOOGLE MAPS</p>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
