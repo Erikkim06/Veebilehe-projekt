@@ -1,16 +1,47 @@
-body {
+body{
 	background-color: #e6e6e6;
 }
 
-h1 {
+h1{
 	color: white;
 	margin-left: 20px;
 }
 
-.navigatsioon {
+.naviriba{
+	list-style-type: none;
+	margin: 25px;
+	padding: 0;
+	overflow: hidden;
 	background-color: #2255a8;
-	padding: 25px;
 }
+
+.horisont{
+	float: left;
+}
+
+.nupud{
+	font-size: 25px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nupud:hover{
+	background-color: #142352;
+}
+
+.praegune{
+	font-size: 25px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #960000;
+}
+
 
 .row {
   display: flex;
