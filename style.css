@@ -1,9 +1,14 @@
 body{
+<<<<<<< HEAD
 
 	background-image: url("taust.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+=======
+	background-color: #e6e6e6;
+	font-family: "Verdana";
+>>>>>>> 1078eb37a72ef844d89501a101cfdb670ff63b47
 }
 
 h1{
@@ -11,8 +16,23 @@ h1{
 	margin-left: 20px;
 }
 
+.nupp{
+	background-color: #2255a8; /* Blue background */
+	border: none; /* Remove borders */
+	color: white; /* White text */
+	padding: 10px 10px 10px 10px; /* Some padding */
+	font-size: 16px; /* Set a font size */
+	cursor: pointer; /* Mouse pointer on hover */
+}
+
+.nupp:hover{
+	background-color: RoyalBlue;
+}
+
 /*Naviriba css algus*/
 .naviriba{
+	border-style: solid;
+	border-width: 2px;
 	list-style-type: none;
 	margin: 25px;
 	padding: 0;
@@ -59,6 +79,15 @@ h1{
 .element {
 	text-align: right;
 
+<<<<<<< HEAD
+=======
+.element{
+	margin: 3% 3% 3% 3%; 
+	padding: 1% 1% 1% 1%; 
+	border-style: solid;
+	border-width: 2px;
+	background-color: #6e96c4;
+>>>>>>> 1078eb37a72ef844d89501a101cfdb670ff63b47
 }
 .kell {
 	left: 100px;
@@ -102,7 +131,13 @@ h1{
 }
 /*google maps*/
 #map{
+<<<<<<< HEAD
     width: 600px;
+=======
+	border-style: solid;
+	border-width: 2px;
+    width: 100%;
+>>>>>>> 1078eb37a72ef844d89501a101cfdb670ff63b47
     height: 400px;
     background-color: grey;
 	right: 0;
