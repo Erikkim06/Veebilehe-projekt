@@ -1,6 +1,14 @@
 body{
+<<<<<<< HEAD
+
+	background-image: url("taust.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+=======
 	background-color: #e6e6e6;
 	font-family: "Verdana";
+>>>>>>> 1078eb37a72ef844d89501a101cfdb670ff63b47
 }
 
 h1{
@@ -68,21 +76,70 @@ h1{
 .column {
   flex: 50%;
 }
+.element {
+	text-align: right;
 
+<<<<<<< HEAD
+=======
 .element{
 	margin: 3% 3% 3% 3%; 
 	padding: 1% 1% 1% 1%; 
 	border-style: solid;
 	border-width: 2px;
 	background-color: #6e96c4;
+>>>>>>> 1078eb37a72ef844d89501a101cfdb670ff63b47
 }
+.kell {
+	left: 100px;
+	border-radius: 30%;
+	width: 400px;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	border-style: inset;
 
-
+}
+.informatsioon {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000066;
+	border-style: inset;
+	
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.lineup {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000066;
+}
 /*google maps*/
 #map{
+<<<<<<< HEAD
+    width: 600px;
+=======
 	border-style: solid;
 	border-width: 2px;
     width: 100%;
+>>>>>>> 1078eb37a72ef844d89501a101cfdb670ff63b47
     height: 400px;
     background-color: grey;
+	right: 0;
+	left: 150px;
 }
