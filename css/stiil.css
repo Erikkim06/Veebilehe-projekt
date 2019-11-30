@@ -55,6 +55,7 @@ table{
 	border-style: inset;
 	border-color: lightgrey;
 	margin: auto;
+	margin-bottom: 1%;
 
 }
 .informatsioon {
@@ -112,6 +113,8 @@ table{
 	float: left;
 	padding: 1%;
 }
+
+
 /*google maps*/
 #map{
     height: 400px;
