@@ -5,19 +5,20 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="pildid.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="navigatsioon">
 			<ul class="naviriba">
 				<li class="horisont"><a href="projekt.html" class="praegune">Pealeht</a></li>
-				<li class="horisont"><a href="vaheleht1.html" class="nupud">Vaheleht1</a></li>
-				<li class="horisont"><a href="vaheleht2.html" class="nupud">Vaheleht2</a></li>
-				<li class="horisont"><a href="vaheleht3.html" class="nupud">Vaheleht3</a></li>
+				<li class="horisont"><a href="vaheleht1.html" class="nupud">Belgia</a></li>
+				<li class="horisont"><a href="vaheleht2.html" class="nupud">Inglismaa</a></li>
+				<li class="horisont"><a href="vaheleht3.html" class="nupud">Prantsusmaa</a></li>
 			</ul>
 		</div>
 		<div class="row">
 			<div class="column">
-				<div class="element">
+				<div class="pildid">
 					<div class="slideshow-container">
 					
 						<div class="slide fade">
@@ -63,16 +64,18 @@
 			<div class="column">
 				<div class="element">
 					<span>
-						<button type="button">Facebook</button>
-						<button type="button">Twitter</button>
-						<button type="button">Instagram</button>
+						<a href="https://www.facebook.com/fifa/" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/FIFAcom" class="fa fa-twitter"></a>
+						<a href="https://www.instagram.com/fifaworldcup/" class="fa fa-instagram"></a>
 					</span>
 				</div>
-				<div class="element">
-					<p>Järgmise mängu couuntdown</p>
+				<div class="kell" background-color: white;>
+					<p>Järgmise mänguni on jäänud</p>
 					<p id="demo"></p>
 					<script src="countdown.js"></script>
 				</div>
+
+
 				<div class="element">
 					<div id="map"></div>
 					<script src="kaart.js"></script>
