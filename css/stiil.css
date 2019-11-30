@@ -110,6 +110,7 @@ table{
 	height:100px;
 	width:330px;
 	float: left;
+	padding: 1%;
 }
 /*google maps*/
 #map{
