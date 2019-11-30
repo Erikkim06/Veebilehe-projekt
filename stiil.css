@@ -5,7 +5,18 @@ body{
 	background-size: cover;
 	font-family: "Verdana";
 }
-
+.table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 .row {
   display: flex;
 }
@@ -79,7 +90,7 @@ body{
 }
 .pilt{
 	height:100px;
-	width:350px;
+	width:330px;
 	float: left;
 }
 /*google maps*/
